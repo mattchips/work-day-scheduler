@@ -20,7 +20,7 @@ $(document).ready(function ()
     var currentHour = cal.getHours();
 
     //checks each hour to see if its past present or future
-    for (var i = 9; i < 23; i++) 
+    for (var i = 9; i < 18; i++) 
     {
         if (i < currentHour) document.getElementById(i.toString()).classList.add('past');
         else if (i === currentHour) document.getElementById(i.toString()).classList.add('present');
@@ -48,16 +48,6 @@ $(document).ready(function ()
         localStorage.setItem('text16', hr16);
         var hr17 = document.getElementById('17').value;
         localStorage.setItem('text17', hr17);
-        var hr18 = document.getElementById('18').value;
-        localStorage.setItem('text18', hr18);
-        var hr19 = document.getElementById('19').value;
-        localStorage.setItem('text19', hr19);
-        var hr20 = document.getElementById('20').value;
-        localStorage.setItem('text20', hr20);
-        var hr21 = document.getElementById('21').value;
-        localStorage.setItem('text21', hr21);
-        var hr22 = document.getElementById('22').value;
-        localStorage.setItem('text22', hr22);
     });
      
      // Saved tasks
@@ -79,14 +69,5 @@ $(document).ready(function ()
      document.getElementById('16').value = saved16;
      var saved17 = localStorage.getItem('text17');
      document.getElementById('17').value = saved17;
-     var saved18 = localStorage.getItem('text18');
-     document.getElementById('18').value = saved18;
-     var saved19 = localStorage.getItem('text19');
-     document.getElementById('19').value = saved19;
-     var saved20 = localStorage.getItem('text20');
-     document.getElementById('20').value = saved20;
-     var saved21 = localStorage.getItem('text21');
-     document.getElementById('21').value = saved21;
-     var saved22 = localStorage.getItem('text22');
-     document.getElementById('22').value = saved22;
+
 });
