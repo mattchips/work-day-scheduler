@@ -1,4 +1,4 @@
-# Work Day Scheduler
+# Third-Party APIs Challenge: Work Day Scheduler
 
 A convenient scheduler for your everyday life! Plan your entire day from 9 am to 5 pm
 
