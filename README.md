@@ -2,7 +2,7 @@
 
 A convenient scheduler for your everyday life! Plan your entire day from 9 am to 5 pm
 
-![screenshot](images/screenshot.png)
+![screenshot](assets/images/screenshot.png)
 
 ## Built With
 
