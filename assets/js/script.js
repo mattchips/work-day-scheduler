@@ -19,13 +19,15 @@ $(document).ready(function ()
     var cal = new Date();
     var currentHour = cal.getHours();
 
+    //checks each hour to see if its past present or future
     for (var i = 9; i < 23; i++) 
     {
         if (i < currentHour) document.getElementById(i.toString()).classList.add('past');
         else if (i === currentHour) document.getElementById(i.toString()).classList.add('present');
         else if (i > currentHour) document.getElementById(i.toString()).classList.add('future');
     }
-    
+
+    //when a save button is clicked, the task will be saved
     $('.saveBtn').click(function () 
     {
         var hr9 = document.getElementById('9').value;
@@ -58,7 +60,7 @@ $(document).ready(function ()
         localStorage.setItem('text22', hr22);
     });
      
-     // Display saved tasks
+     // saved tasks
      var saved9 = localStorage.getItem('text9');
      document.getElementById('9').value = saved9;
      var saved10 = localStorage.getItem('text10');
