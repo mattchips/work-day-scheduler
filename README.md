@@ -1,4 +1,4 @@
-# CSS Git Challenge: Professional Portfolio
+# Work Day Scheduler
 
 A convenient scheduler for your everyday life! Plan your entire day from 9 am to 5 pm
 
