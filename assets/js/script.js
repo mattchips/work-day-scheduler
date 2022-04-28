@@ -60,7 +60,7 @@ $(document).ready(function ()
         localStorage.setItem('text22', hr22);
     });
      
-     // saved tasks
+     // Saved tasks
      var saved9 = localStorage.getItem('text9');
      document.getElementById('9').value = saved9;
      var saved10 = localStorage.getItem('text10');
